@@ -65,8 +65,8 @@ export default function SingleHouse() {
                         key={index}
                         className={`${
                           variant?.id === variantInfo.id
-                            ? "mx-2 px-4 text-[30px] border-2 border-black hover:bg-black bg-black text-white hover:text-white rounded-md my-2 font-proxima"
-                            : "mx-2 px-4 text-[30px] border-2 border-black hover:bg-black hover:text-white rounded-md my-2 font-proxima"
+                            ? "mx-2 px-4 text-[20px] border-2 border-black hover:bg-black bg-black text-white hover:text-white rounded-md my-2 font-proxima"
+                            : "mx-2 px-4 text-[20px] border-2 border-black hover:bg-black hover:text-white rounded-md my-2 font-proxima"
                         }`}
                         onClick={() => {
                           onVariantInfo(variant);
