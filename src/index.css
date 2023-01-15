@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "proxima";
+  src: url("../public/fonts/proxima.ttf");
+}
+@font-face {
+  font-family: "georgia";
+  src: url("../public/fonts/Georgia.ttf");
+}
+@font-face {
+  font-family: "georgiaitalic";
+  src: url("../public/fonts/georgiaitalic.ttf");
 }
