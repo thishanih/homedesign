@@ -27,13 +27,25 @@ export default function App() {
                 </button>
               </div>
             </div>
-            <div className="flex flex-row flex-wrap w-full gap-8">
+            <div className="flex flex-row flex-wrap w-full gap-8 md:justify-start justify-center">
               <IconComponent number={4} image={bed} />
               <IconComponent number={5} image={bath} />
               <IconComponent number={12} image={car} />
             </div>
-            <div className="font-proxima text-[25px] my-2">Price from $ 12 000</div>
-            <div className="font-proxima text-[18px]">Designed to suit 12.5m x 32m block</div>
+            <div className="w-full font-proxima text-[25px] mt-4 my-2 md:text-left text-center">
+              Price from $ 12 000
+            </div>
+            <div className="font-proxima text-[18px] my-2 md:text-left text-center">
+              Designed to suit 12.5m x 32m block
+            </div>
+
+            <button className="border-2 border-white hover:border-black hover:bg-black text-white py-3 rounded-md my-2 uppercase">
+              Download floor plain
+            </button>
+
+            <button className="border-2 border-white hover:border-black hover:bg-black text-white py-3 rounded-md my-2 uppercase">
+              Enquire now
+            </button>
           </div>
 
           <div className="lg:col-span-4">
